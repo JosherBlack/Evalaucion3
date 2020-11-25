@@ -7,4 +7,46 @@
     android:background="#369d68"
     tools:context=".ListadoClientes_act">
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="381dp"
+        android:layout_height="698dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <FrameLayout
+            android:layout_width="339dp"
+            android:layout_height="644dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/lv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="453dp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="113dp">
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#f44336"
+                        android:text="ELIMINAR CLIENTE"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

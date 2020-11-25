@@ -35,7 +35,15 @@ public class Menu_act extends AppCompatActivity
 
     public void gestion(View v)
     {
+        ArrayList<String> promos = new ArrayList<String>();
+        promos.add("Pizzas Promo");
+        promos.add("Master Pizza");
+        promos.add("Pizza Max");
+
         Intent i = new Intent(getBaseContext(), Firebase_act.class);
+
+        i.putExtra("listaPromos", promos);
+
         startActivity(i);
     }
 
