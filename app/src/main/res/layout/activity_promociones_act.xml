@@ -32,7 +32,7 @@
                     android:orientation="vertical">
 
                     <Spinner
-                        android:id="@+id/sp1"
+                        android:id="@+id/fondo"
                         android:layout_width="match_parent"
                         android:layout_height="60dp" />
 

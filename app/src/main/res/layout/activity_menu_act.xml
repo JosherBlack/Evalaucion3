@@ -99,6 +99,7 @@
                         android:gravity="bottom|center"
                         android:text="Agradecenos que quieras trabajar con nosotros ne Pizza's."
                         android:textSize="12sp" />
+
                 </FrameLayout>
 
             </LinearLayout>

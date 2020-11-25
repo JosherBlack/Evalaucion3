@@ -24,7 +24,7 @@ public class Promociones_act extends AppCompatActivity
         setContentView(R.layout.activity_promociones_act);
 
         //spinner
-        sp1 = (Spinner)findViewById(R.id.sp1);
+        sp1 = (Spinner)findViewById(R.id.fondo);
         sp2 = (Spinner)findViewById(R.id.sp2);
 
         //Ingresos

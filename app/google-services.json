@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1014035357664",
+    "firebase_url": "https://evaluacion3-josher.firebaseio.com",
+    "project_id": "evaluacion3-josher",
+    "storage_bucket": "evaluacion3-josher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014035357664:android:0647f1552c37b1774c5585",
+        "android_client_info": {
+          "package_name": "com.example.evalaucion3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014035357664-ite59rh4nid4eci7ju764n9lonu8msos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGTwZRyk8J92OIWHdCMvpAHuwfBMCy8DQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014035357664-ite59rh4nid4eci7ju764n9lonu8msos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

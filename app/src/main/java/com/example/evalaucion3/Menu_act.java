@@ -15,8 +15,6 @@ public class Menu_act extends AppCompatActivity
 {
     private VideoView vv;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -35,14 +33,14 @@ public class Menu_act extends AppCompatActivity
 
     public void gestion(View v)
     {
-        ArrayList<String> promos = new ArrayList<String>();
-        promos.add("Pizzas Promo");
-        promos.add("Master Pizza");
-        promos.add("Pizza Max");
+        ArrayList<String> promos2 = new ArrayList<String>();
+        promos2.add("Pizzas Promo");
+        promos2.add("Master Pizza");
+        promos2.add("Pizza Max");
 
         Intent i = new Intent(getBaseContext(), Firebase_act.class);
 
-        i.putExtra("listaPromos", promos);
+        i.putExtra("listaPromos2", promos2);
 
         startActivity(i);
     }

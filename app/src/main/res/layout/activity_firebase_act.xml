@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/sp1"
+    android:id="@+id/fondo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#369d68"
@@ -67,9 +67,9 @@
                         android:inputType="textPersonName" />
 
                     <Spinner
-                        android:id="@+id/spinner"
+                        android:id="@+id/sp3"
                         android:layout_width="match_parent"
-                        android:layout_height="44dp" />
+                        android:layout_height="49dp" />
 
                 </LinearLayout>
 
@@ -84,7 +84,7 @@
                         android:orientation="vertical">
 
                         <Button
-                            android:id="@+id/button6"
+                            android:id="@+id/Boton1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="#ffb331"
@@ -97,6 +97,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="#886bf3"
+                            android:onClick="listado"
                             android:text="LISTADO CLIENTES"
                             android:textColor="@android:color/background_light"
                             android:textSize="18sp" />
