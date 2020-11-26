@@ -36,11 +36,6 @@ public class Firebase_act extends AppCompatActivity
     String etpromo;
     Button Boton1;
 
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -82,9 +77,6 @@ public class Firebase_act extends AppCompatActivity
                 }
             }
         });
-
-
-
     }
 
     public void listado(View v)
@@ -92,7 +84,6 @@ public class Firebase_act extends AppCompatActivity
         Intent i = new Intent(this, ListadoClientes_act.class);
         startActivity(i);
     }
-
 
 
     public void ini()
